@@ -1,0 +1,46 @@
+.hero {
+  background-color: var(--secondary-body-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+}
+
+.hero__titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-light);
+  width: 696px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+/* Замовити послугу */
+.hero__button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-light);
+  background-color: var(--backgraund-color-btn);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  transition: background-color var(--transition-dur-and-fanc);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-backgraund-color-btn);
+  }
+}
